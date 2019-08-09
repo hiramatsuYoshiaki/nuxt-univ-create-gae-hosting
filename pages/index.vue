@@ -40,6 +40,24 @@
           nuxt-univ-create-gae-hosting (GitHub )
         </a>
       </div>
+      <br>
+
+      <h3 class="subtitle">
+        How to Deploy Google App Engine
+      </h3>
+      <p class="subtitle">
+        1.app.yaml設置
+      </p>
+      <p class="subtitle">
+        2.App Engineに新しいプロジェクトを作成する。
+      </p>
+      <p class="subtitle">
+        3.Cloud SDK をインストールし初期化する。
+      </p>
+      <p class="subtitle">
+        4.ビルドしデプロイする。
+      </p>
+      
     </div>
   </div>
 </template>
