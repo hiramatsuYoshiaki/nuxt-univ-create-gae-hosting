@@ -254,7 +254,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 2rem 0.5rem;
+  padding: 2rem 2rem;
   @media (min-width: 768px) {
     padding: 8rem 8rem;
   }
