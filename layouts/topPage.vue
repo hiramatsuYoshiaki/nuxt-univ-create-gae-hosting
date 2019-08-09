@@ -15,9 +15,11 @@ export default {
 </script>
 <style scoped lang="scss">
 .topPage {
+  display: relative;
   margin: 0;
   padding: 0;
-  width: auto;
-  min-width: 100vw;
+  // width: 100vw;
+  // width: auto;
+  // min-width: 100vw;
 }
 </style>

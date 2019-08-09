@@ -460,20 +460,19 @@ export default {
     padding: 8rem 8rem;
   }
   border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  @media (min-width: 768px) {
+    font-size: 1.6rem;
+  }
 }
 .flex-container {
   width: 100%;
   display: flex;
-  //   flex-direction: column;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  //   @media (min-width: 768px) {
-  //       flex-direction: row;
-  //   };
 }
 .side-col {
-  // background-color: rgb(187, 248, 187);
   width: 100%;
   display: none;
   @media (min-width: 992px) {
@@ -481,22 +480,17 @@ export default {
     display: block;
     padding-right: 5rem;
   }
-  // padding-right: 8rem;
-  // padding-bottom: 2rem;
+
   padding: 2rem;
   section {
     margin-bottom: 2rem;
   }
-  // h3{
-  //   color:#000000;
-  //   font-weight: 600;
-  // }
+
   p {
     color: rgb(70, 69, 69);
     font-size: 1.2rem;
     font-weight: 600;
   }
-  // border: 1px solid  rgba(0,0,0,.2);
 }
 .main-col {
   width: 100%;
@@ -508,10 +502,6 @@ export default {
   section {
     margin-bottom: 2rem;
   }
-  // p{
-  //   color:rgb(70, 69, 69);
-  // }
-  // background-color: rgb(245, 165, 165);
 }
 .topMenu {
   color: rgb(70, 69, 69);
@@ -538,26 +528,23 @@ export default {
   }
 }
 .mainDescription {
-  // p{
-  //     color: gray;
-  // }
   margin: 2rem 2rem 2rem 2rem;
 }
 .mainOperation {
-  // p{
-  //     color: gray;
-  // }
   margin: 2rem 2rem 2rem 2rem;
 }
 .mainComandWrap {
   background-color: rgb(150, 159, 165);
   padding: 1rem;
   border-radius: 2px;
-  // font-size: 1rem;
 }
 .mainComand {
-  font-size: 1.6rem;
-  line-height: 2.5rem;
+  line-height: 1.8rem;
+  font-size: 1rem;
+  @media (min-width: 768px) {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
 }
 .h1-res {
   color: rgb(5, 121, 5);
